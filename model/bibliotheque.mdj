@@ -1296,7 +1296,18 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "Emprunt"
+					"name": "Emprunt",
+					"attributes": [
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAGhLDTMJULoSe8=",
+							"_parent": {
+								"$ref": "AAAAAAGhK8tisEIhwJA="
+							},
+							"name": "dateEmprunt",
+							"type": ""
+						}
+					]
 				}
 			]
 		},
@@ -1573,7 +1584,7 @@
 											"parentStyle": true,
 											"left": 497,
 											"top": 248,
-											"width": 74.67724609375,
+											"width": 83.0244140625,
 											"height": 13,
 											"text": "Emprunt"
 										},
@@ -1587,7 +1598,7 @@
 											"parentStyle": true,
 											"left": 497,
 											"top": 263,
-											"width": 74.67724609375,
+											"width": 83.0244140625,
 											"height": 13,
 											"text": "(from Model)"
 										},
@@ -1608,7 +1619,7 @@
 									"parentStyle": true,
 									"left": 492,
 									"top": 241,
-									"width": 84.67724609375,
+									"width": 93.0244140625,
 									"height": 40,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGhK+kibELDHyc="
@@ -1632,12 +1643,32 @@
 									"model": {
 										"$ref": "AAAAAAGhK8tisEIhwJA="
 									},
+									"subViews": [
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGhLDTMR0Lr0xw=",
+											"_parent": {
+												"$ref": "AAAAAAGhK+kibELHpEo="
+											},
+											"model": {
+												"$ref": "AAAAAAGhLDTMJULoSe8="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 497,
+											"top": 286,
+											"width": 83.0244140625,
+											"height": 13,
+											"text": "+dateEmprunt",
+											"horizontalAlignment": 0
+										}
+									],
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"left": 492,
 									"top": 281,
-									"width": 84.67724609375,
-									"height": 10
+									"width": 93.0244140625,
+									"height": 23
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -1651,8 +1682,8 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"left": 492,
-									"top": 291,
-									"width": 84.67724609375,
+									"top": 304,
+									"width": 93.0244140625,
 									"height": 10
 								},
 								{
@@ -1691,8 +1722,8 @@
 							"containerChangeable": true,
 							"left": 492,
 							"top": 241,
-							"width": 83.67724609375,
-							"height": 60,
+							"width": 92.0244140625,
+							"height": 73,
 							"showNamespace": true,
 							"nameCompartment": {
 								"$ref": "AAAAAAGhK+kibELCcTs="
